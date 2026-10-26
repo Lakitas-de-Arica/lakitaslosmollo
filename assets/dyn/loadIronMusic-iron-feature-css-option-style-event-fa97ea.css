@@ -1,0 +1,56 @@
+@import url(/assets/fonts/gf-44ca8df592.css);
+.event-line-node { 
+	font-family: Poppins;
+	font-weight: 300;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+}
+.event-line-wrap { 
+	background-color: rgba(38, 36, 35, 0);
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+.event-line-wrap .artists { 
+	color: rgba(38, 36, 35, 0);
+}
+.countdown-block { 
+	font-family: Poppins;
+	font-weight: 300;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	letter-spacing: 0px;
+}
+.event-line-wrap .event-line-countdown-wrap { 
+	background-color: rgb(30, 240, 191);
+}
+ul.concerts-list { 
+	border-top-color: rgb(255, 255, 255);
+}
+ul.concerts-list li { 
+	border-bottom-color: rgb(255, 255, 255);
+}
+.events-bar { 
+	border-top-color: rgb(255, 255, 255);
+}
+span.events-bar-artists select { 
+	border-color: rgb(255, 255, 255);
+}
+.events-bar, .events-bar select { 
+	background-color: rgba(255, 255, 255, 0);
+}
+span.events-bar-title, span.events-bar-artists select { 
+	font-family: Poppins;
+	font-weight: 300;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	letter-spacing: 0px;
+}
+span.events-bar-artists:after { 
+	border-top-color: rgb(255, 255, 255);
+	border-bottom-color: rgb(255, 255, 255);
+}
+@media only screen and (min-width: 1024px){
+        .event-line-wrap:hover{ background:rgb(38, 36, 35);}
+        .event-line-wrap:hover .event-line-node{ color:rgb(30, 240, 191);}
+
+        }.event-line-wrap .artists{ background-color:rgb(255, 255, 255)}

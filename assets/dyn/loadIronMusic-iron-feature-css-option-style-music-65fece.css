@@ -1,0 +1,48 @@
+@import url(/assets/fonts/gf-44ca8df592.css);
+.iron-audioplayer .playlist .audio-track, .iron-audioplayer .playlist .track-number { 
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 16px;
+	color: rgb(43, 43, 43);
+}
+.iron-audioplayer .track-title, .continuousPlayer .track-name, .artist_player .track-name { 
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+}
+.iron-audioplayer .album-title, .continuousPlayer .album-title, .artist_player .album-title { 
+	font-family: Poppins;
+	font-weight: 300;
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+}
+.continuousPlayer .track-name { 
+	color: rgb(255, 255, 255);
+}
+.continuousPlayer .album-title { 
+	color: rgb(255, 255, 255);
+}
+.iron-audioplayer .playlist :not([data-audiopath = ""])>.audio-track:hover { 
+	color: rgb(215, 215, 215);
+}
+.iron-audioplayer .playlist li.current .audio-track { 
+	color: rgb(77, 77, 79);
+}
+.continuousPlayer { 
+	background-color: rgb(38, 36, 35);
+}
+.playlist .sr_it-playlist-title, .sr_it-playlist-artists, .sr_it-playlist-release-date { 
+	color: rgb(43, 43, 43);
+}
+.iron-audioplayer .control polygon, .iron-audioplayer .control path, .iron-audioplayer .control rect, .continuousPlayer .control rect, .continuousPlayer .control path, .continuousPlayer .control polygon{
+        	fill:rgb(127, 127, 127);
+        }
+        .iron-audioplayer .player .currentTime, .iron-audioplayer .player .totalTime{
+            color:rgb(127, 127, 127);
+        }
+        .iron-audioplayer .playlist .track-number svg path, .iron-audioplayer .playlist .track-number svg rect{
+            fill:rgb(77, 77, 79);
+        }.continuousPlayer .control rect, .continuousPlayer .control path, .continuousPlayer .control polygon{
+        	fill:rgb(255, 255, 255);
+        }
