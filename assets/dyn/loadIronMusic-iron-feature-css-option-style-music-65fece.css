@@ -1,4 +1,4 @@
-@import url(/assets/fonts/gf-44ca8df592.css);
+@import url("../fonts/gf-44ca8df592.css");
 .iron-audioplayer .playlist .audio-track, .iron-audioplayer .playlist .track-number { 
 	font-family: Poppins;
 	font-weight: 500;

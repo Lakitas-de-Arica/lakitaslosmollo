@@ -1,4 +1,4 @@
-@import url(/assets/fonts/gf-f63c6e640e.css);@import url(/assets/fonts/gf-3f1fd654dc.css);@import url(/assets/fonts/gf-44ca8df592.css);
+@import url("../fonts/gf-f63c6e640e.css");@import url("../fonts/gf-3f1fd654dc.css");@import url("../fonts/gf-44ca8df592.css");
 #overlay { 
 	background-repeat: no-repeat;
 	background-size: cover;
